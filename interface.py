@@ -27,10 +27,10 @@ def interfaceADM():
                             id = int(input("DIGITE O ID DO FUNCIONÁRIO "))
                             o.buscar_funcionario_por_id(id)
                         except ValueError as e:
-                            print("APÉNAS NÚMEROS")
+                            print("APENAS NÚMEROS")
                         os.system('pause')
                 except ValueError as g:
-                    print("APÉNAS NÚMEROS")
+                    print("APENAS NÚMEROS")
             elif opcao == 2:
                 os.system('cls')
                 try:
@@ -52,7 +52,7 @@ def interfaceADM():
                         except ValueError as f:
                             print("APÉNAS NÚMEROS")
                 except ValueError as g:
-                    print("APÉNAS NÚMEROS")
+                    print("APENAS NÚMEROS")
                 os.system('pause')
             elif opcao == 3:
                 os.system('cls')
@@ -66,7 +66,7 @@ def interfaceADM():
                         os.system('cls')
                         o.cadastrar_operador()
                 except ValueError as e:
-                    print("APÉNAS NÚMEROS")
+                    print("APENAS NÚMEROS")
             elif opcao == 4:
                 os.system('cls')
                 o.cadastrar_muitos_funcionarios()
@@ -90,7 +90,7 @@ def interfaceADM():
             else:
                 print("DIGITE UMA OPÇÃO VÁLIDA")
         except ValueError as h:
-            print("APÉNAS NÚMEROS")
+            print("APENAS NÚMEROS")
         
 
 def interfaceOERACIONAL():
@@ -116,4 +116,4 @@ def interfaceOERACIONAL():
             else:
                 print("DIGITE UMA OPÇÃO VÁLIDA")
         except ValueError as h:
-            print("APÉNAS NÚMEROS")
+            print("APENAS NÚMEROS")
