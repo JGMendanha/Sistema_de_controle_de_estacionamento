@@ -31,7 +31,7 @@ def cadastrar_adm():
     except ValueError as e:
         os.system('cls')
         cadastrar_adm()
-    print("Será gerado um ID de 7 dígitos para seu administrador. Por favor, salve este ID, ele será usado como senha de acesso.")
+    print("Será gerado um ID de 7 dígitos para seu administrador. Salve este ID, ele será usado como senha de acesso.")
     idAdm = gerar_id_adm()
     print("ID ->", idAdm)
     f1 = f.Funcionario(nome, idAdm, salario, cargo)
